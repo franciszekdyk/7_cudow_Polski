@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stare Miasto w Warszawie">
+    <title>Stare Miasto w Warszawie - 7 Cudów Polski</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <h1>7 Cudów Polski</h1>
+      </div>
+      <div class="nav">
+        <div class="menu-toggle" id="menu-toggle">
+          <span class="toggle"></span>
+          <span class="toggle"></span>
+          <span class="toggle"></span>
+        </div>
+        <ul id="menu">
+          <li class="link"><a href="index.html">Strona Główna</a></li>
+          <li class="link"><a href="warszawa.html">nr I</a></li>
+          <li class="link"><a href="malbork.html">nr II</a></li>
+          <li class="link"><a href="wawel.html">nr III</a></li>
+          <li class="link"><a href="bialowieza.html">nr IV</a></li>
+          <li class="link"><a href="wieliczka.html">nr V</a></li>
+          <li class="link"><a href="mazury.html">nr VI</a></li>
+          <li class="link"><a href="las.html">nr VII</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+        <h2>Numer I - Stare Miasto w Warszawie</h2>
+        <p>
+          Stare Miasto w Warszawie to historyczne centrum stolicy, którego początki sięgają średniowiecza. Zostało ono niemal całkowicie zniszczone podczas II wojny światowej, jednak dzięki starannym pracom rekonstrukcyjnym zostało odbudowane i obecnie stanowi jedno z najważniejszych miejsc w Polsce. W 1980 roku zostało wpisane na Listę Światowego Dziedzictwa UNESCO.
+        </p>
+        <p>
+          Na Starym Mieście można podziwiać liczne zabytki, w tym Zamek Królewski, który był rezydencją królów polskich, oraz kolorowe kamienice przy Rynku Starego Miasta. Jednym z symboli Warszawy jest także Kolumna Zygmunta III Wazy, wzniesiona na pamiątkę przeniesienia stolicy do Warszawy.
+        </p>
+        <p>
+          Stare Miasto to także miejsce tętniące życiem, z licznymi restauracjami, kawiarniami i sklepami, gdzie turyści mogą poczuć atmosferę historycznego centrum Warszawy. Co roku odbywają się tu różnorodne wydarzenia kulturalne, festiwale oraz koncerty.
+        </p>
+        <h2>Informacje o Starym Mieście</h2>
+        <table>
+            <tr>
+                <th>Data założenia</th>
+                <th>Powierzchnia</th>
+                <th>Główne atrakcje</th>
+                <th>Licencja UNESCO</th>
+            </tr>
+            <tr>
+                <td>Średniowiecze</td>
+                <td>0,9 km²</td>
+                <td>Zamek Królewski, Rynek Starego Miasta, Kolumna Zygmunta</td>
+                <td>1980</td>
+            </tr>
+        </table>
+        <div></div>
+        <h2>Galeria</h2>
+        <div class="slideshow-container">
+          <div class="slides">
+              <img src="photos/zamek.jpg" alt="Zamek Królewski">
+              <p class="caption">By <a href="//commons.wikimedia.org/wiki/User:Kgbo" title="User:Kgbo">Kgbo</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=118315160">Link</a></p>
+          </div>
+          <div class="slides">
+              <img src="photos/kolumna.jpg" alt="Kolumna Zygmunta">
+              <p class="caption">Autorstwa <a href="//commons.wikimedia.org/wiki/User:SchiDD" title="User:SchiDD">SchiDD</a> - <span class="int-own-work" lang="pl">Praca własna</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=81436092">Link</a></p>
+          </div>
+          <div class="slides">
+              <img src="photos/syrenka.jpg" alt="Syrenka Warszawska">
+              <p class="caption">Autorstwa <a href="//commons.wikimedia.org/wiki/User:Boston9" title="User:Boston9">Adrian Grycuk</a> - <span class="int-own-work" lang="pl">Praca własna</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en" title="Creative Commons Attribution-Share Alike 3.0 pl">CC BY-SA 3.0 pl</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=90735894">Link</a></p>
+          </div>
+        </div>
+          <h2>Mapa Google</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8294.778481093994!2d21.008510752519342!3d52.25002713796634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc6f49f976dd%3A0x50d2f456e2756d4f!2sWarsaw%20Old%20Town%2C%20Warsaw!5e1!3m2!1sen!2spl!4v1736975248036!5m2!1sen!2spl" width="560" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+
+
+        <p>Więcej informacji o Starym Mieście na <a href="https://pl.wikipedia.org/wiki/Stare_Miasto_w_Warszawie" target="_blank">Wikipedia (Link otwiera się w nowej karcie)</a>.</p>
+    </div>
+      <div class="footer">
+        <p>Franciszek Dyk | Klasa: 2ta</p>
+      </div>
+      <script>
+              document.getElementById('menu-toggle').addEventListener('click', () => {
+    document.getElementById('menu').classList.toggle('active');
+  });
+
+  let slideIndex = 0;
+
+  function showSlides() {
+      const slides = document.querySelectorAll('.slides');
+      const captions = document.querySelectorAll('.caption');
+      
+      for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1; }
+      
+      slides[slideIndex - 1].style.display = "block";
+      captions[slideIndex - 1].style.display = "block";
+      
+      setTimeout(showSlides, 3000); // Change image every 3 seconds
+  }
+
+  showSlides();
+
+      </script>
+  </body>
+</html>
