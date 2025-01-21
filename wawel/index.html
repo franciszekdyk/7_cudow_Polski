@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wawel - 7 Cudów Polski">
+  <title>Wawel - 7 Cudów Polski</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <h1>7 Cudów Polski</h1>
+    </div>
+    <div class="nav">
+      <div class="menu-toggle" id="menu-toggle">
+        <span class="toggle"></span>
+        <span class="toggle"></span>
+        <span class="toggle"></span>
+      </div>
+      <ul id="menu">
+        <li class="link"><a href="index.html">Strona Główna</a></li>
+        <li class="link"><a href="warszawa.html">nr I</a></li>
+        <li class="link"><a href="malbork.html">nr II</a></li>
+        <li class="link"><a href="wawel.html">nr III</a></li>
+        <li class="link"><a href="bialowieza.html">nr IV</a></li>
+        <li class="link"><a href="wieliczka.html">nr V</a></li>
+        <li class="link"><a href="mazury.html">nr VI</a></li>
+        <li class="link"><a href="las.html">nr VII</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main>
+    <section class="content">
+      <h2>Numer III - Wawel</h2>
+      <p>
+        Wawel to jedno z najważniejszych miejsc w Polsce, będące symbolem narodowej historii i kultury. Zamek na Wawelu w Krakowie przez wieki pełnił rolę siedziby polskich królów, a także ważnego centrum politycznego i religijnego kraju. Wzgórze Wawelskie, na którym znajduje się zamek, jest jednym z najstarszych miejsc w Polsce, mającym nie tylko wartość historyczną, ale i ogromne znaczenie kulturowe.
+      </p>
+      <p>
+        Zamek Wawelski jest znany ze swojej imponującej architektury, która łączy style gotycki, renesansowy i barokowy. Na Wawelu znajduje się także Katedra Wawelska, miejsce koronacji polskich królów oraz ich spoczynku. W katedrze znajdują się groby wielu monarchów i wybitnych postaci historycznych, a także dzwon Zygmunta, który bije na ważne państwowe wydarzenia.
+      </p>
+      <p>
+        Wawel to również popularne miejsce turystyczne. W jego murach znajdują się liczne ekspozycje, w tym zbiory sztuki, militariów oraz eksponaty związane z historią Polski. Zamek oferuje także przepiękne widoki na Kraków oraz Wisłę, które można podziwiać z zamkowych tarasów.
+      </p>
+      <h2>Informacje o Wawelu</h2>
+      <table>
+          <tr>
+              <th>Data budowy</th>
+              <th>Okres funkcjonowania</th>
+              <th>Styl architektoniczny</th>
+              <th>Główne atrakcje</th>
+          </tr>
+          <tr>
+              <td>X-XVII wiek</td>
+              <td>od średniowiecza do dziś</td>
+              <td>Klasycyzm, Renesans, Barok</td>
+              <td>Katedra Wawelska, Zamek Królewski, Groby Królewskie, Dzwon Zygmunta</td>
+          </tr>
+      </table>
+  
+      <h3>Film</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-DHFgJYQ8Ps?si=Tu_M8Qoqj-97cCvB" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="film"></iframe>
+
+
+
+    <section class="map">
+      <h2>Mapa Google</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4349.581303105879!2d19.93303217772653!3d50.054138671519176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165bcb0775d95b%3A0x6c2b2c699b0abb2b!2sWawel%20Royal%20Castle!5e1!3m2!1sen!2spl!4v1736976498320!5m2!1sen!2spl" width="560" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+    </section>
+    <p>Więcej informacji o Wawelu na <a href="https://pl.wikipedia.org/wiki/Zamek_Wawelski" target="_blank">Wikipedia (Link otwiera się w nowej karcie)</a>.</p>
+  </section>
+    </main>
+    <div class="footer">
+      <p>Franciszek Dyk | Klasa: 2ta</p>
+    </div>
+    <script>
+      document.getElementById('menu-toggle').addEventListener('click', () => {
+  document.getElementById('menu').classList.toggle('active');
+});
+</script>
+</body>
+</html>
