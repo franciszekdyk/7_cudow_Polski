@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="7 Cudów Polski - Poznaj najpiękniejsze miejsca w Polsce.">
+    <title>7 Cudów Polski</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <h1>7 Cudów Polski</h1>
+      </div>
+      <div class="nav">
+        <div class="menu-toggle" id="menu-toggle">
+          <span class="toggle"></span>
+          <span class="toggle"></span>
+          <span class="toggle"></span>
+        </div>
+        <ul id="menu">
+          <li class="link"><a href="index.html">Strona Główna</a></li>
+          <li class="link"><a href="warszawa.html">nr I</a></li>
+          <li class="link"><a href="malbork.html">nr II</a></li>
+          <li class="link"><a href="wawel.html">nr III</a></li>
+          <li class="link"><a href="bialowieza.html">nr IV</a></li>
+          <li class="link"><a href="wieliczka.html">nr V</a></li>
+          <li class="link"><a href="mazury.html">nr VI</a></li>
+          <li class="link"><a href="las.html">nr VII</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <h2>Polska - Odkryj Niezwykłe Miejsca</h2>
+      <p>Znajdź miejsca, które warto zobaczyć w Polsce.</p>
+
+      <h2>Stare Miasto w Warszawie</h2>
+      <p>Stare Miasto w Warszawie to zrekonstruowana dzielnica, która zachowała historyczny charakter. Można tam zwiedzać zabytkowe uliczki, kościoły oraz pałace, a także odwiedzić Rynek Starego Miasta.</p>
+
+      <h2>Zamek w Malborku</h2>
+      <p>Zamek w Malborku to największa gotycka twierdza w Europie, zbudowana przez Krzyżaków. Dziś można zwiedzać zamkowe komnaty, mury obronne oraz muzeum poświęcone historii tego miejsca.</p>
+
+      <h2>Wawel</h2>
+      <p>Zamek Wawelski w Krakowie to symbol polskiej historii. Na jego terenie znajdują się królewskie komnaty, katedra oraz groby ważnych postaci narodowych.</p>
+
+      <h2>Puszcza Białowieska</h2>
+      <p>Puszcza Białowieska to jedno z ostatnich miejsc w Europie, gdzie zachowały się naturalne lasy. Jest domem dla żubrów i innych dzikich zwierząt, a także wpisana na listę UNESCO.</p>
+
+      <h2>Wieliczka</h2>
+      <p>Kopalnia soli w Wieliczce to jedno z najstarszych i najlepiej zachowanych miejsc tego typu na świecie. Zwiedzający mogą przejść przez podziemne korytarze i zobaczyć komnaty wykute w soli.</p>
+
+      <h2>Mazury</h2>
+      <p>Mazury to region w północno-wschodniej Polsce, znany z licznych jezior i malowniczych krajobrazów. To popularne miejsce na wakacje, z możliwością uprawiania sportów wodnych i wędkowania.</p>
+
+      <h2>Krzywy Las</h2>
+      <p>Krzywy Las to wyjątkowy las w zachodniej Polsce, gdzie drzewa rosną w nietypowy sposób. Jest to miejsce pełne tajemnic, które przyciąga turystów i badaczy.</p>
+
+      <form>
+        <h3 class="ankieta">Twoja opinia o 7 cudach Polski</h3>
+        <label for="ulubiony">Który z 7 cudów Polski podoba Ci się najbardziej?</label><br>
+        <select id="ulubiony" name="Ulubiony Cud">
+          <option value="">-- Wybierz --</option>
+          <option value="stare_miasto">Stare Miasto w Warszawie</option>
+          <option value="malbork">Zamek w Malborku</option>
+          <option value="wawel">Wawel</option>
+          <option value="puszcza">Puszcza Białowieska</option>          
+          <option value="wieliczka">Wieliczka</option>
+          <option value="mazury">Mazury</option>
+          <option value="las">Krzywy Las</option>
+        </select><br><br>
+        <label for="rating">Jak oceniasz naszą stronę internetową?</label><br>
+        <input type="radio" id="swietna" name="ocena" value="5"> Świetna<br>
+        <input type="radio" id="dobra" name="ocena" value="4"> Dobra<br>
+        <input type="radio" id="przecietna" name="ocena" value="3"> Przeciętna<br>
+        <input type="radio" id="slaba" name="ocena" value="2"> Słaba<br>
+        <input type="radio" id="bardzo_slaba" name="ocena" value="1"> Bardzo słaba<br><br>
+
+        <label for="sugestie">Masz jakieś sugestie?</label><br>
+        <textarea id="sugestie" name="sugestie" rows="4" cols="40" placeholder="Napisz tutaj..."></textarea><br><br>
+
+        <button type="submit" class="wyslij">Wyślij</button>
+        <button type="reset" class="wyczysc">Wyczyść</button>
+      </form>
+    </div>
+    <div class="footer">
+      <p>Franciszek Dyk | Klasa: 2ta</p>
+    </div>
+    <script>
+      document.getElementById('menu-toggle').addEventListener('click', () => {
+        document.getElementById('menu').classList.toggle('active');
+      });
+    </script>
+  </body>
+</html>
