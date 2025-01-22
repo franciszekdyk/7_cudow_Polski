@@ -121,6 +121,10 @@ ul {
   .nav ul {
     flex-direction: column;
   }
+
+  .mapa .h2mapa .film .h2film {
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -161,6 +165,10 @@ ul {
 
   #menu {
     display: flex;
+  }
+
+  .mapa .h2mapa {
+    display: none;
   }
 
 }
