@@ -122,7 +122,7 @@ ul {
     flex-direction: column;
   }
 
-  .mapa .h2mapa .film .h2film {
+  .mapa .h2mapa .film .h2film .slideshow-container .h2galeria {
     display: none;
   }
 }
