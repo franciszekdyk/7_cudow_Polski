@@ -123,24 +123,7 @@ ul {
   }
 }
 
-@media (min-width: 600px) and (max-width: 1199px) {
-  .header {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .nav ul {
-    justify-content: center;
-    margin-top: 10px;
-    gap: 30px;
-  }
-
-  #menu {
-    display: flex;
-  }
-
-}
-
+@media (min-width: 1200px) {
   .header {
     width: 100%;
     position: fixed;
@@ -162,6 +145,27 @@ ul {
     gap: 50px;
     margin: 0;
   }
+}
+
+@media (min-width: 600px) and (max-width: 1199px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav ul {
+    justify-content: center;
+    margin-top: 10px;
+    gap: 30px;
+  }
+
+  #menu {
+    display: flex;
+  }
+
+}
+
+  
 
 table {
   max-width: 800px;
