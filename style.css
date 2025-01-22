@@ -274,6 +274,7 @@ button:hover {
 }
 
 .paragraf {
+  max-width: 1000px;
   font-size: 16px;
   line-height: 1.6;
   color: #333;
@@ -313,8 +314,4 @@ button:hover {
 
 .nawigacja {
   text-align: center;
-}
-
-p {
-  max-width: 1000px;
 }
