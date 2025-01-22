@@ -314,3 +314,7 @@ button:hover {
 .nawigacja {
   text-align: center;
 }
+
+p {
+  max-width: 1000px;
+}
