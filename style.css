@@ -143,9 +143,6 @@ ul {
     display: flex;
   }
 
-  .mapa .h2mapa {
-    float: left;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -174,6 +171,12 @@ ul {
     gap: 50px;
     margin: 0;
   }
+
+
+  .mapa .h2mapa {
+    float: left;
+  }
+
 }
 
 table {
