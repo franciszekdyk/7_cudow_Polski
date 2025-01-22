@@ -314,3 +314,8 @@ button:hover {
     transform: translateY(0);
   }
 }
+
+.nawigacja {
+  text-align: center;
+  color: black;
+}
