@@ -1,70 +1,68 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Wawel - 7 Cudów Polski">
     <title>Wawel - 7 Cudów Polski</title>
     <link type="text/css" rel="stylesheet" href="../style.css">
-</head>
-<body>
-        <div class="header">
-            <div class="logo">
-                <h1>7 Cudów Polski</h1>
-            </div>
-            <div class="nav">
-                <div class="menu-toggle" id="menu-toggle">
-                    <span class="toggle"></span>
-                    <span class="toggle"></span>
-                    <span class="toggle"></span>
-                </div>
-                <ul id="menu">
-                    <li class="nav-item"><a href="../index.html">Strona Główna</a></li>
-                    <li class="nav-item"><a href="../Pages/stare-miasto-w-warszawie.html">nr I</a></li>
-                    <li class="nav-item"><a href="../Pages/malbork.html">nr II</a></li>
-                    <li class="nav-item"><a href="../Pages/wawel.html">nr III</a></li>
-                    <li class="nav-item"><a href="../Pages/bialowieza.html">nr IV</a></li>
-                    <li class="nav-item"><a href="../Pages/wieliczka.html">nr V</a></li>
-                    <li class="nav-item"><a href="../Pages/mazury.html">nr VI</a></li>
-                    <li class="nav-item"><a href="../Pages/krzywy-las.html">nr VII</a></li>
-                </ul>
-            </div>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <h1>7 Cudów Polski</h1>
+      </div>
+      <div class="nav">
+        <div class="menu-toggle" id="menu-toggle">
+          <span class="toggle"></span>
+          <span class="toggle"></span>
+          <span class="toggle"></span>
         </div>
-
-        <div class="main">
-                <h2>Numer III - Wawel</h2>
-                <p>
-                    Wawel to jedno z najważniejszych miejsc w Polsce, będące symbolem narodowej historii i kultury...
-                </p>
-                <h2>Informacje o Wawelu</h2>
-                <table>
-                    <tr>
-                        <th>Data budowy</th>
-                        <th>Okres funkcjonowania</th>
-                        <th>Styl architektoniczny</th>
-                        <th>Główne atrakcje</th>
-                    </tr>
-                    <tr>
-                        <td>X-XVII wiek</td>
-                        <td>od średniowiecza do dziś</td>
-                        <td>Klasycyzm, Renesans, Barok</td>
-                        <td>Katedra Wawelska, Zamek Królewski...</td>
-                    </tr>
-                </table>
-                <h3>Film</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/-DHFgJYQ8Ps" allowfullscreen class="film"></iframe>
-                <h2>Mapa Google</h2>
-                <iframe src="https://www.google.com/maps/embed?..." width="560" height="450" allowfullscreen class="mapa"></iframe>
-            <p>Więcej informacji o Wawelu na <a href="https://pl.wikipedia.org/wiki/Zamek_Wawelski" target="_blank">Wikipedia</a>.</p>
-        </div>
-        <div class="footer">
-            <p>Franciszek Dyk | Klasa: 2ta</p>
-        </div>
-    <script>
+      <ul id="menu">
+          <li class="link"><a href="../index.html">Strona Główna</a></li>
+          <li class="link"><a href="../Pages/stare-miasto-w-warszawie.html">nr I</a></li>
+          <li class="link"><a href="../Pages/malbork.html">nr II</a></li>
+          <li class="link"><a href="../Pages/wawel.html">nr III</a></li>
+          <li class="link"><a href="../Pages/bialowieza.html">nr IV</a></li>
+          <li class="link"><a href="../Pages/wieliczka.html">nr V</a></li>
+          <li class="link"><a href="../Pages/mazury.html">nr VI</a></li>
+          <li class="link"><a href="../Pages/krzywy-las.html">nr VII</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+        <h2>Numer III - Wawel</h2>
+        <p>
+          Wawel to jedno z najważniejszych miejsc w Polsce, będące symbolem narodowej historii i kultury. Kompleks Wawelski obejmuje Zamek Królewski, Katedrę Wawelską oraz wiele innych historycznych budowli.
+        </p>
+        <h2>Informacje o Wawelu</h2>
+        <table>
+            <tr>
+                <th>Data budowy</th>
+                <th>Okres funkcjonowania</th>
+                <th>Styl architektoniczny</th>
+                <th>Główne atrakcje</th>
+            </tr>
+            <tr>
+                <td>X-XVII wiek</td>
+                <td>od średniowiecza do dziś</td>
+                <td>Klasycyzm, Renesans, Barok</td>
+                <td>Katedra Wawelska, Zamek Królewski...</td>
+            </tr>
+        </table>
+        <h2>Film</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-DHFgJYQ8Ps" allowfullscreen class="film"></iframe>
+        <h2>Mapa Google</h2>
+        <iframe src="https://www.google.com/maps/embed?..." width="560" height="450" allowfullscreen class="mapa"></iframe>
+        <p>Więcej informacji o Wawelu na <a href="https://pl.wikipedia.org/wiki/Zamek_Wawelski" target="_blank">Wikipedia (Link otwiera się w nowej karcie)</a>.</p>
+    </div>
+      <div class="footer">
+        <p>Franciszek Dyk | Klasa: 2ta</p>
+      </div>
+      <script>
         document.getElementById('menu-toggle').addEventListener('click', () => {
-            document.getElementById('menu').classList.toggle('active');
+          document.getElementById('menu').classList.toggle('active');
         });
-    </script>
-</body>
+      </script>
+  </body>
 </html>
-
