@@ -142,6 +142,10 @@ ul {
   #menu {
     display: flex;
   }
+
+  .mapa .h2mapa {
+    float: left;
+  }
 }
 
 @media (min-width: 1200px) {
