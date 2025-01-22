@@ -127,10 +127,6 @@ ul {
   .nav ul {
     flex-direction: column;
   }
-
-    .mapa, .h2mapa {
-    display: none;
-  }
 }
 
 @media (min-width: 600px) and (max-width: 1199px) {
@@ -149,17 +145,7 @@ ul {
     display: flex;
   }
 
-   .film, .mapa {
-    width: 100%;
-    display: block;
-  }
-
 }
-
-@media (min-width: 1200px) {
-  body {
-    flex-direction: column;
-  }
 
   .header {
     width: 100%;
@@ -182,15 +168,6 @@ ul {
     gap: 50px;
     margin: 0;
   }
-
-
-    .film, .mapa {
-    width: 49%;
-    display: inline-block;
-    vertical-align: top;
-  }
-
-}
 
 table {
   width: 100%;
