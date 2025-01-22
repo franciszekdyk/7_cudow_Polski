@@ -10,6 +10,16 @@
   justify-content: center;
 }
 
+.video-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f7f7f7;
