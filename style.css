@@ -180,7 +180,7 @@ ul {
   }
 
 table {
-  width: 100%;
+  max-width: 1000px;
   border-collapse: separate;
   background-color: #f5f5f5;
   border-radius: 8px;
